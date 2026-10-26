@@ -28,8 +28,61 @@ It brings a handful of tools together in one clean, dark interface: a platform s
 
 The sidebar gives access to every page. It can be collapsed to an icon-only strip with the button at the bottom, or with **Ctrl+B**. Press **Ctrl+K** at any time to open the command menu and jump to any page.
 
-| Page | What it does |
-|---|---|
+### Home
+
+Shows every Discord version installed on your PC. The **Launch** button starts Discord with BlanKord attached and applies the selected platform (Meta Quest by default). Auto-launch and Auto-connect options are available on the same page.
+
+<p align="center"><img src="screenshots/home.png" alt="Home page" width="720"></p>
+
+### Direct message
+
+Adds a user to your DM list by user ID.
+
+<p align="center"><img src="screenshots/direct-message.png" alt="Direct message page" width="720"></p>
+
+### Fake platform
+
+Makes Discord report Desktop, Web, Mobile, Meta Quest or Console to its gateway. The platform can be changed while Discord is attached, without connecting again.
+
+<p align="center"><img src="screenshots/fake-platform.png" alt="Fake platform page" width="720"></p>
+
+### Rich presence
+
+Sets a custom activity through Discord's local RPC pipe. Only an Application ID is required.
+
+<p align="center"><img src="screenshots/rich-presence.png" alt="Rich presence page" width="720"></p>
+
+### Quest completer
+
+Starts a lightweight dummy process named after a game that Discord can detect, so that Discord treats the game as running.
+
+<p align="center"><img src="screenshots/quest-completer.png" alt="Quest completer page" width="720"></p>
+
+### Badge
+
+Sends game-time and game-variety events for the related profile badges.
+
+<p align="center"><img src="screenshots/badge.png" alt="Badge page" width="720"></p>
+
+### Extra tools
+
+One-click *Asset Explorer* and *Checkpoint Preview* panels inside the Discord window, with no DevTools console needed.
+
+<p align="center"><img src="screenshots/extra-tools.png" alt="Extra tools page" width="720"></p>
+
+### Logs
+
+A clear record of what BlanKord has done, with a status indicator for warnings and errors.
+
+<p align="center"><img src="screenshots/logs.png" alt="Logs page" width="720"></p>
+
+### App settings
+
+Button and text size, data folder, log file and a diagnostics report.
+
+<p align="center"><img src="screenshots/app-settings.png" alt="App settings page" width="720"></p>
+
+---|---|
 | **Home** | Shows every Discord version installed on your PC. The **Launch** button starts Discord with BlanKord attached and applies the selected platform (Meta Quest by default). Auto-launch and Auto-connect options are available on the same page. |
 | **Direct message** | Adds a user to your DM list by user ID. |
 | **Fake platform** | Makes Discord report Desktop, Web, Mobile, Meta Quest or Console to its gateway. The platform can be changed while Discord is attached, without connecting again. |
@@ -175,4 +228,4 @@ The complete license texts are included in `THIRD_PARTY_NOTICES.txt`, which is d
 
 Questions, bug reports and suggestions are welcome through the **Issues** tab of this repository. When reporting a problem, please attach the report from **App settings > Diagnostics** and mention your Windows and Discord versions.
 
-Developed by **BlanK-VisionS**: https://discord.gg/3MJAYraXu8
+Developed by **BlanK-VisionS**.
