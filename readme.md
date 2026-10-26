@@ -228,4 +228,4 @@ The complete license texts are included in `THIRD_PARTY_NOTICES.txt`, which is d
 
 Questions, bug reports and suggestions are welcome through the **Issues** tab of this repository. When reporting a problem, please attach the report from **App settings > Diagnostics** and mention your Windows and Discord versions.
 
-Developed by **BlanK-VisionS**.
+Developed by **BlanK-VisionS**: https://discord.gg/3MJAYraXu8
