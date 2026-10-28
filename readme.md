@@ -4,7 +4,7 @@ BlanKord is a small Windows utility for the Discord desktop client (Stable, PTB 
 
 It brings a handful of tools together in one clean, dark interface: a platform spoof, custom Rich Presence, a Quest completer, profile badge helpers, direct message shortcuts and a few in-client developer panels. Everything runs locally on your computer.
 
-> **Important:** BlanKord is **not open source**. Only the compiled program is distributed through the Releases page. Please read the [License](#license) and [Disclaimer](#disclaimer) sections before use.
+> **Important:** BlanKord is **not open source**. Only the compiled program is distributed through the Releases page. Please read the [Disclaimer](#disclaimer) sections before use.
 
 ---
 
@@ -190,37 +190,6 @@ Spoofing a platform, simulating a running game and sending game-activity events 
 BlanKord is provided "as is", without warranty of any kind. The developer is not responsible for any loss, restriction or damage resulting from its use.
 
 BlanKord is an independent project. It is not affiliated with, endorsed by or connected to Discord Inc. "Discord" is a trademark of Discord Inc.
-
----
-
-## License
-
-Copyright (c) BlanK-VisionS. All rights reserved.
-
-BlanKord is proprietary software and is **not open source**. The source code is not published. The compiled program is made available free of charge for personal, non-commercial use only.
-
-Without prior written permission from the developer, you may not:
-
-- decompile, disassemble or reverse engineer the program, or attempt to extract its source code;
-- modify the program or create derivative works from it;
-- redistribute, re-upload, resell or repackage the program, whether modified or not;
-- remove or alter the author's name, version information or notices.
-
-You may share a link to this repository. Third-party components included in BlanKord remain under their own licenses, as described below.
-
----
-
-## Credits and third-party notices
-
-BlanKord builds on the work of others, and the developer is grateful to them:
-
-- **discord-quest-completer** by Mark Terence Tiglao (MIT License): the idea behind the Quest completer and the optional native dummy game executable. <https://github.com/markterence/discord-quest-completer>
-- **dgdb**: a daily mirror of Discord's detectable-applications list, used as one of the game-list sources. <https://github.com/teyd/dgdb>
-- **discord-badge-spoofer** by revere group (MIT License): the event format used by the Badge page. The executable fingerprint generator was reverse engineered by dolfies. <https://gist.github.com/dolfies/d442777ab8354e18c1a3827e27f85c3a>
-- **Geist** and **Geist Mono** fonts by Vercel, in collaboration with basement.studio (SIL Open Font License 1.1). <https://github.com/vercel/geist-font>
-- **websocket-client** (Apache-2.0), **Pillow**, **PyInstaller** (GPL-2.0 with the bootloader exception) and **Python / Tcl/Tk** (PSF and Tcl licenses).
-
-The complete license texts are included in `THIRD_PARTY_NOTICES.txt`, which is distributed together with every release.
 
 ---
 
